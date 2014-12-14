@@ -1,0 +1,23 @@
+{
+    "name": "askobara/php-google-cloud-print",
+    "type": "library",
+    "description": "PHP implementation of Google Cloud Print",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yasir Siddiqui",
+            "email": "y.hallian@gmail.com",
+            "homepage": "http://www.miiscan.com"
+        },
+        {
+            "name": "Skobara Arthur",
+            "email": "skobara.arthur@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": { "Google\\Service\\": "src/" }
+    }
+}

@@ -19,10 +19,10 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-require_once 'GoogleCloudPrint.php';
+require_once 'vendor/autoload.php';
 
 // Create object
-$gcp = new GoogleCloudPrint();
+$gcp = new Google\Service\CloudPrint();
 
 // Login to Googel, email address and password is required
 if($gcp->loginToGoogle("someone@gmail.com", "someonepassword")) {
